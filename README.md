@@ -46,9 +46,10 @@ For example, getting an inventory summary:
    5 datastore(s)
    8 vm(s)
   ..................................................
-  
+``` 
 Listing hosts and datastores available in current installation:
 
+``` bash
   ./vctr_report.py-s 198.100.234.200 -u stats -v -hs -ds
   Enter password for vCenter 198.100.234.200 for user stats: 
   Connecting to server 198.100.234.200 with username stats
