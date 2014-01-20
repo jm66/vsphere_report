@@ -6,6 +6,7 @@ Reporting VMware vCenter inventory
 Simple pysphere implementation script for reporting VMware vCenter inventory. Outputs a summary
 of vCenter clusters, datacenters, hosts, datastores and virtual machines or lists each element.
 
+``` bash
   ./vctr_report.py  -s vctr5-1 -h
   usage: vctr_report.py [-h] -s SERVER -u USERNAME [-hs] [-dc] [-cs] [-ds] [-vm]
                       [-v]
@@ -25,10 +26,11 @@ of vCenter clusters, datacenters, hosts, datastores and virtual machines or list
     -vm, --virtualmachines
                         Restrict report to VMs info
     -v, --verbose         Enable verbose output
-    
+```    
 
 For example, getting an inventory summary:
 
+``` bash
   ./vctr_report.py-s 198.100.234.200 -u stats -v 
   Enter password for vCenter 198.100.234.200 for user stats: 
   Connecting to server 198.100.234.200 with username stats
@@ -76,3 +78,4 @@ Listing hosts and datastores available in current installation:
   datastore4
   datastore5
   ..................................................
+```
