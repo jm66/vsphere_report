@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Requires Pysphere: pip install pysphere
 import sys, re, getpass, argparse, subprocess
 from time import sleep
 from pysphere import MORTypes, VIServer, VITask, VIProperty, VIMor, VIException
