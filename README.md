@@ -1,7 +1,7 @@
 vsphere_report
 ==================
 
-Reporting VMware vCenter inventory
+Get a quick summary of the vSphere inventory.
 
 Simple pysphere implementation script for reporting VMware vCenter inventory. Outputs a summary
 of vCenter clusters, datacenters, hosts, datastores and virtual machines or lists each element.
