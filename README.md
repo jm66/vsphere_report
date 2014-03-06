@@ -1,4 +1,4 @@
-vmware_vctr_report
+vsphere_report
 ==================
 
 Reporting VMware vCenter inventory
