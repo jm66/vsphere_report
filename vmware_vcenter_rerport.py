@@ -35,7 +35,7 @@ def print_ds(datacenters):
     for ds in sorted(datastores):
         print '-%s' %ds   
          
-def print_vms():
+def print_vms(vms):
     print ' '
     print 'Virtual Machine(s)'
     print '.' * 50
